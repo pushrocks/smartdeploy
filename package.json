@@ -1,0 +1,23 @@
+{
+  "name": "smartdeploy",
+  "version": "0.0.0",
+  "description": "deploy software with socket.io and jwt tockens",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushrocks/smartdeploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "software"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushrocks/smartdeploy/issues"
+  },
+  "homepage": "https://github.com/pushrocks/smartdeploy#readme"
+}
