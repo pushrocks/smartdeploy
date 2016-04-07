@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: HCA9HU57uHs7uhww1v7+Y8H8SPf+/wqp6tS/kD9jmS3eWMqatZcr1Kea3V2iiwjzfz+KwcMniiN7SAL1SgBa/Cv76UozqPYO4SjAUWyhPzKog2ei85avr0oYE+ZY8Oqq2dbSHrP6bHW8Yqw2sAqezk/NO3RDRXiRN9qTtsWdSw8xQ5MK5imU9Ih0n6ANR8z24QAi51/BEfLAwFI1cXPhQXdHztlMmp9YR4q925ihGmUbVw3ZwJlg3QsU1s95Hu7ZqA7VBuC3nrPs/GUpQYVlktIdgy1F56Pb1PAU9gX6ULjCLhmTgziNxAsU4yJFvoQPb6KTghjyPpJ48mmpsC57xj+P8aoCZLvdLCmqckkyX4uHI4gQZsB2i+Z5oJykPvpsyTVjc9F0UMQTNmYcf/a0nHYtiHxqvkd8omvaTukmzZoW1njPFT0ttPjgBEti6B8V5rqMvc1i7q9ksq5fD0aeuTeu8YmpUI4gKmHYlwb6oNuBEDSDosrvylsnCqgEG65h6UlRvipUtRIqMZUeZF9sXzMpj/0dKwrlAyDS4FMrnGbVYS/WVGvbc2IsxkuVqJEp29xd8MjJtmGMctz60zYDXDPcDIjUwxAAU5waJGplBHv6GXGa26zUEJLOVBGwpJtZ8PtKzDXTCmOa1sy58nGzpNFv5MijYUAichqdoyxn0FQ=
+  on:
+    tags: true
+    repo: pushrocks/smartdeploy
