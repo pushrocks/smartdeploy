@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/pushrocks/smartdeploy/issues"
   },
-  "homepage": "https://github.com/pushrocks/smartdeploy#readme"
+  "homepage": "https://github.com/pushrocks/smartdeploy#readme",
+  "devDependencies": {
+    "npmts": "^5.0.3"
+  },
+  "dependencies": {
+    "beautylog": "^4.1.2",
+    "shelljs": "^0.6.0",
+    "smartfile": "^3.0.3"
+  }
 }

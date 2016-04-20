@@ -2,3 +2,6 @@
 coverage/
 docs/
 node_modules/
+ts/typings/
+ts/**/*.js
+ts/**/*.js.map
